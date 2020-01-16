@@ -1,0 +1,114 @@
+
+/*******************FONTS **************************/
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('assets/fonts/ProximaNova-Regular.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/ProximaNova-Regular.woff2') format('woff2'), /* Super YandexSansText Browsers */
+       url('assets/fonts/ProximaNova-Regular.woff') format('woff'), /* Pretty YandexSansText Browsers */
+       url('assets/fonts/ProximaNova-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/ProximaNova-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 500;     
+}
+
+@font-face {
+  font-family: 'Yandex Sans Text';
+  src: url('assets/fonts/YandexSansText-Bold.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/YandexSansText-Bold?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/YandexSansText-Bold.woff2') format('woff2'), /* Super YandexSansText Browsers */
+       url('assets/fonts/YandexSansText-Bold.woff') format('woff'), /* Pretty YandexSansText Browsers */
+       url('assets/fonts/YandexSansText-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/YandexSansText-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 900;     
+}
+@font-face {
+  font-family: 'Yandex Sans Text';
+  src: url('assets/fonts/YandexSansText-Medium.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/YandexSansText-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/YandexSansText-Medium.woff2') format('woff2'), /* Super YandexSansText Browsers */
+       url('assets/fonts/YandexSansText-Medium.woff') format('woff'), /* Pretty YandexSansText Browsers */
+       url('assets/fonts/YandexSansText-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/YandexSansText-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 700;     
+}
+@font-face {
+  font-family: 'Yandex Sans Text';
+  src: url('assets/fonts/YandexSansText-Regular.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/YandexSansText-Regular?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/YandexSansText-Regular.woff2') format('woff2'), /* Super YandexSansText Browsers */
+       url('assets/fonts/YandexSansText-Regular.woff') format('woff'), /* Pretty YandexSansText Browsers */
+       url('assets/fonts/YandexSansText-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/YandexSansText-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 500;     
+}
+@font-face {
+  font-family: 'Yandex Sans Text';
+  src: url('assets/fonts/YandexSansText-Light.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/YandexSansText-Light?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/YandexSansText-Light.woff2') format('woff2'), /* Super YandexSansText Browsers */
+       url('assets/fonts/YandexSansText-Light.woff') format('woff'), /* Pretty YandexSansText Browsers */
+       url('assets/fonts/YandexSansText-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/YandexSansText-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 300;     
+}
+@font-face {
+  font-family: 'Yandex Sans Text';
+  src: url('assets/fonts/YandexSansText-Thin.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/YandexSansText-Thin?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('assets/fonts/YandexSansText-Thin.woff2') format('woff2'), /* Super YandexSansText Browsers */
+       url('assets/fonts/YandexSansText-Thin.woff') format('woff'), /* Pretty YandexSansText Browsers */
+       url('assets/fonts/YandexSansText-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/YandexSansText-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: 100;     
+}
+
+
+
+
+/***************         ******************************/
+html, body, h1, h2, h3, h4, h5, p, ul { 
+  margin: 0; 
+  padding: 0; 
+  } 
+html { 
+  font-size: 1em; 
+  } 
+body { 
+  font-family: Arial, Tahoma, sans-serif; 
+  } 
+a img, :link img, :visited img { 
+  border: 0; 
+  }
+
+a{
+  text-decoration: none;
+}
+div, header, section, p, a, img, body, html, input, textarea, footer, button{ 
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  
+}
+.flex{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+button {
+    background: none;
+    padding: 0;
+    border: none;
+     cursor: pointer;
+}
+img{
+  max-width: 100%;
+}
+d-none{
+  display: none;
+}
+
+
+
