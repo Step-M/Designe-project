@@ -17,7 +17,7 @@
   /* IE9 Compat Modes */
   src: url('assets/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('assets/fonts/ProximaNova-Regular.woff2') format('woff2'),
+  /*  url('assets/fonts/ProximaNova-Regular.woff2') format('woff2'), */
     /* Super YandexSansText Browsers */
     url('assets/fonts/ProximaNova-Regular.woff') format('woff'),
     /* Pretty YandexSansText Browsers */
@@ -725,4 +725,101 @@ background-size: 400% 400%;
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+
+/*
+.homtop-slide-inner-w.relative {  
+  background: url('assets/img/slide1-img.jpg');
+  background-size: contain;
+ /* background-position: top left; 
+  background-size: 100% auto;
+  transition: background-size 10s linear;
+  transform: scale(1.5);
+  transition-delay: 2s;
+
+}
+.swiper-slide-active .homtop-slide-inner-w.slide-animation{  
+  transform: scale(1);
+ background-size: 100% auto; 
+  transition-delay: 2s;
+  transition: background-size 10s linear;
+}
+*/
+.absolute{
+  position: absolute;
+}
+.homtop-slide-inner-w img{
+  opacity: 0;
+}
+.homtop-slide-inner-w.relative{
+  overflow: hidden;
+}
+
+.homtop-slide-inner-w img.absolute {
+  margin: 0 auto;
+    display: block;
+   width: 150%;
+   max-width: 150%;
+    transition: all 20s linear;
+    top: 50%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+.homtop-slide-inner-w.slide-animation img.absolute {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(0.7);
+}
+
+.top-text-dsl {
+  position: relative;
+
+}
+.slider-home-text-w{
+  opacity: 0;
+}
+.slider-home-title {
+  opacity: 0;
+  top: -50px;
+  transition-delay: 5s;
+}
+.slider-home-text {
+ left: 300px;
+ transition-delay: 5s;
+ transition: all 0.3s linear;
+ opacity: 0;
+}
+.slider-home-pretitle {
+  top: 500px;
+  transition-delay: 5s;
+  transition: all 0.3s linear;
+  opacity: 0;
+}
+.homtop-slide-inner-w.slide-animation .slider-home-text-w {
+opacity: 1;
+}
+.homtop-slide-inner-w.slide-animation  .slider-home-title {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  transition-delay: 5s;
+  transition: all 0.3s linear;
+}
+.homtop-slide-inner-w.slide-animation  .slider-home-text {
+  top: 159px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+}
+.homtop-slide-inner-w.slide-animation  .slider-home-pretitle {
+  position: absolute;
+  top: 310px;
+  left: 0;
+  width: 100%;
+  opacity: 1;
 }

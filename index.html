@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/slick.css">
+   
 	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 	<link rel="stylesheet" href="style.css">
 
@@ -33,7 +33,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="line-top line-animation animate"></div>
+		<div class="line-top line-animation"></div>
 		<div class="main-menu-w">
 			<ul>
 				<li><a href="#">Дизайн интерьера</a></li>
@@ -55,6 +55,7 @@
 				<div class="swiper-slide">
 					<div class="homtop-slide-inner-w relative">
 						<img src="assets/img/slide1-img.jpg" alt="">
+						<img class="absolute" src="assets/img/slide1-img.jpg" alt="">
 						<div class="slider-home-text-w">
 							<div class="inner-topsl-text">
 								<div class="top-text-dsl">
@@ -69,13 +70,43 @@
 						</div>
 					</div>
 				</div>
+				<!-- Slides -->
 				<div class="swiper-slide">
-					<img data-src="assets/img/slide1-img.jpg" class="swiper-lazy">
-					<div class="swiper-lazy-preloader"></div>
+					<div class="homtop-slide-inner-w relative">
+						<img src="assets/img/slide1-img.jpg" alt="">
+						<img class="absolute" src="assets/img/slide1-img.jpg" alt="">
+						<div class="slider-home-text-w">
+							<div class="inner-topsl-text">
+								<div class="top-text-dsl">
+									<div class="slider-home-title">Американская классика</div>
+									<div class="slider-home-text">Это всегда невероятное сочетание
+										элегантности и функциональности,
+										изящества и комфорта</div>
+									<div class="slider-home-pretitle">Спальня</div>
+								</div>
+								<div class="bottom-text">Квартира в ЖК «Николаевский ансамбль», Санкт-Петербург</div>
+							</div>
+						</div>
+					</div>
 				</div>
+				<!-- Slides -->
 				<div class="swiper-slide">
-					<img data-src="assets/img/slide1-img.jpg" class="swiper-lazy">
-					<div class="swiper-lazy-preloader"></div>
+					<div class="homtop-slide-inner-w relative">
+						<img src="assets/img/slide1-img.jpg" alt="">
+						<img class="absolute" src="assets/img/slide1-img.jpg" alt="">
+						<div class="slider-home-text-w">
+							<div class="inner-topsl-text">
+								<div class="top-text-dsl">
+									<div class="slider-home-title">Американская классика</div>
+									<div class="slider-home-text">Это всегда невероятное сочетание
+										элегантности и функциональности,
+										изящества и комфорта</div>
+									<div class="slider-home-pretitle">Спальня</div>
+								</div>
+								<div class="bottom-text">Квартира в ЖК «Николаевский ансамбль», Санкт-Петербург</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 			</div>
@@ -1159,8 +1190,8 @@
 					</div>
 				</div>
 			</div>
-				  <!-- If we need pagination -->
-				  <div class="tab-slider2-pagination"></div>
+			<!-- If we need pagination -->
+			<div class="tab-slider2-pagination"></div>
 			<!--  navigation buttons -->
 			<div class="tab-sl-arrovs-prev tab-sl-arrovs-prev2">
 				<div class="multi-button-prev-inner"></div>
@@ -1190,7 +1221,7 @@
 				<div class="top-an-w">
 					<div class="count">01</div>
 					<div class="sqw"></div>
-					<div class="line animate"></div>
+					<div class="line"></div>
 				</div>
 				<div class="about-work-tile-sm">Консультация</div>
 				<div class="about-work-text">
@@ -1202,18 +1233,20 @@
 				<div class="top-an-w">
 					<div class="count">02</div>
 					<div class="sqw"></div>
-					<div class="line animate"></div>
+					<div class="line"></div>
 				</div>
 				<div class="about-work-tile-sm">Техническое задание</div>
 				<div class="about-work-text">
-					Мы покажем Вам примеры готовых проектов и обсудим идеи обустройства Вашей квартиры.  Заполним техническое задание, в котором  фиксируем ваши пожелания по колористике, меблировке и отделочным материалам.
+					Мы покажем Вам примеры готовых проектов и обсудим идеи обустройства Вашей квартиры. Заполним
+					техническое задание, в котором фиксируем ваши пожелания по колористике, меблировке и отделочным
+					материалам.
 				</div>
 			</div>
 			<div class="about-work-box">
 				<div class="top-an-w">
 					<div class="count">03</div>
 					<div class="sqw"></div>
-					<div class="line animate"></div>
+					<div class="line"></div>
 				</div>
 				<div class="about-work-tile-sm">Планировочное решение</div>
 				<div class="about-work-text">
@@ -1224,57 +1257,64 @@
 				<div class="top-an-w">
 					<div class="count">01</div>
 					<div class="sqw"></div>
-					<div class="line animate"></div>
+					<div class="line"></div>
 				</div>
 				<div class="about-work-tile-sm">Инженерные чертежи</div>
 				<div class="about-work-text">
-					Формируем подробный комплект документов —  инженерные чертежи с развёртками всех  поверхностей пола, стен и потолков во всех 
-                    помещениях, демонтаж перегородок, планы  сантехники и электрики и вентиляции.
+					Формируем подробный комплект документов — инженерные чертежи с развёртками всех поверхностей пола,
+					стен и потолков во всех
+					помещениях, демонтаж перегородок, планы сантехники и электрики и вентиляции.
 				</div>
 			</div>
 			<div class="about-work-box">
 				<div class="top-an-w">
 					<div class="count">02</div>
 					<div class="sqw"></div>
-					<div class="line animate"></div>
+					<div class="line"></div>
 				</div>
 				<div class="about-work-tile-sm">3D визуализация</div>
 				<div class="about-work-text">
-					Создаем 3D-изображение, которое дает четкое  представление о том, как будет выглядеть ваш 
-                    интерьер со всей подобранной мебелью,  отделочными материалами и декором.
+					Создаем 3D-изображение, которое дает четкое представление о том, как будет выглядеть ваш
+					интерьер со всей подобранной мебелью, отделочными материалами и декором.
 				</div>
 			</div>
 			<div class="about-work-box">
 				<div class="top-an-w">
 					<div class="count">03</div>
 					<div class="sqw"></div>
-					<div class="line animate"></div>
+					<div class="line"></div>
 				</div>
 				<div class="about-work-tile-sm">Итоговый дизайн-проект</div>
 				<div class="about-work-text">
-					В финале мы подготовим для Вас полноценную версию дизайн-проекта с 3D визуализацией, рабочей документацией, ведомостью материалов c их артикулами и ценами, и подробным расчётом всего бюджета на ремонт.
+					В финале мы подготовим для Вас полноценную версию дизайн-проекта с 3D визуализацией, рабочей
+					документацией, ведомостью материалов c их артикулами и ценами, и подробным расчётом всего бюджета на
+					ремонт.
 				</div>
 			</div>
 		</div>
 	</div>
 
-
-
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 	<script>
-		var mySwiper = new Swiper('.swiper-container', {
+		$( document ).ready(function() {
+			var mySwiper = new Swiper('.swiper-container', {
 			// Optional parameters
 			loop: true,
 			// Disable preloading of all images
-
-			/* autoplay: {
-				   delay: 5000,
+             autoplay: {
+				   delay: 3500,
 			   },
-   */
+   
 		});
 		mySwiper.on('slideChange', function () {
-  console.log('slide changed');
-});
+		
+			setTimeout(function(){
+			$('.swiper-slide-active .homtop-slide-inner-w').addClass('slide-animation');
+             }, 800);
+			$('.swiper-slide-active .homtop-slide-inner-w').removeClass('slide-animation');
+		});
 		var mySwiperlots = new Swiper('.swiper-container2', {
 			// Optional parameters
 			loop: true,
@@ -1303,23 +1343,46 @@
 				prevEl: '.tab-sl-arrovs-next',
 			},
 		});
-		
+
 		var mySwiperTab2 = new Swiper('.swiper-container-tab-slider2', {
 			pagination: {
-	el: '.tab-slider2-pagination',
-	type: "custom",
-	renderCustom: function (swiper, current, total) {
-      return current + ' / ' + total;
-  }
-	},
+				el: '.tab-slider2-pagination',
+				type: "custom",
+				renderCustom: function (swiper, current, total) {
+					return current + ' / ' + total;
+				}
+			},
 			// Navigation arrows
 			navigation: {
 				nextEl: '.tab-sl-arrovs-prev2',
 				prevEl: '.tab-sl-arrovs-next2',
 			}
-			
-		
+
+
 		});
+
+
+		
+		setTimeout(function(){
+			$('.swiper-slide-active .homtop-slide-inner-w').addClass('slide-animation');
+}, 800);
+
+function colorfulLineAnimation(){
+	setTimeout(function(){
+		$('.line-top, .line').addClass('animate');
+	}, 5000);
+	setTimeout(function(){
+		$('.line-top, .line').removeClass('animate');
+		colorfulLineAnimation();
+	}, 20000);
+	
+}
+colorfulLineAnimation();
+
+
+});
+
+	
 	</script>
 
 </body>
